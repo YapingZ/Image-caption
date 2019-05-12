@@ -7,6 +7,8 @@
 
 > The version two use faster rcnn and merge module to generate words
 
+I'm using `PyTorch 0.4` in `Python 3.6`.
+
 ## Installation
 - [PyTorch 0.4](https://pytorch.org)
 - [nltk 3.2.5](http://www.nltk.org/)
@@ -44,12 +46,12 @@ We will use [Andrej Karpathy's training, validation, and test splits](http://cs.
 See [`train.py`]()
 
 To **train your model from scratch**, simply run this file 
-> '''python train.py'''
+> ```python train.py```
 ***
 ### Eval
 
 See [`eval.py`]()
 
 It will compute the correct BLEU-4 scores of model checkpoint on the test set
-> '''python eval.py'''
+> ```python eval.py```
 
